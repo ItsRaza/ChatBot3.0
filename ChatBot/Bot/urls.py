@@ -4,6 +4,6 @@ from django.conf.urls import url
 
 app_name = "Bot"
 urlpatterns = [
-    path('', views.Home, name='Bot-Home'),
-    #path('Bot/', Post.as_view()),
+    path('', views.Home, name='home'),
+    path('post/', views.Post, name='post'),
 ]
